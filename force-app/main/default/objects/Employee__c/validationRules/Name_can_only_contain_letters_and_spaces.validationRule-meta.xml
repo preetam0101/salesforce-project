@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_can_only_contain_letters_and_spaces</fullName>
+    <active>true</active>
+    <description>EMPLOYEE Name can not contain numbers</description>
+    <errorConditionFormula>NOT(REGEX( Name, &quot;^[a-zA-Z\\s]*$&quot; ))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Name can only contain letters and spaces. Numbers and special characters are not permitted.</errorMessage>
+</ValidationRule>

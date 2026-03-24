@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JOBE_ROLE__c</fullName>
+    <label>JOBE ROLE</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AGENT</fullName>
+                <default>false</default>
+                <label>AGENT</label>
+            </value>
+            <value>
+                <fullName>ANALYST</fullName>
+                <default>false</default>
+                <label>ANALYST</label>
+            </value>
+            <value>
+                <fullName>BLOGGER</fullName>
+                <default>false</default>
+                <label>BLOGGER</label>
+            </value>
+            <value>
+                <fullName>CAMERA MAN</fullName>
+                <default>false</default>
+                <label>CAMERA MAN</label>
+            </value>
+            <value>
+                <fullName>CEO</fullName>
+                <default>false</default>
+                <label>CEO</label>
+            </value>
+            <value>
+                <fullName>CFO</fullName>
+                <default>false</default>
+                <label>CFO</label>
+            </value>
+            <value>
+                <fullName>EDITOR</fullName>
+                <default>false</default>
+                <label>EDITOR</label>
+            </value>
+            <value>
+                <fullName>LEADS PROVIDER</fullName>
+                <default>false</default>
+                <label>LEADS PROVIDER</label>
+            </value>
+            <value>
+                <fullName>MANAGER</fullName>
+                <default>false</default>
+                <label>MANAGER</label>
+            </value>
+            <value>
+                <fullName>NEWS ANCHOR</fullName>
+                <default>false</default>
+                <label>NEWS ANCHOR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

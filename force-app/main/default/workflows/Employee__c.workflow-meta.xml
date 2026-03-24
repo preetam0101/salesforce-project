@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>send_email_to_preetam</fullName>
+        <ccEmails>parmarpreetam143@gmail.com</ccEmails>
+        <description>send email to preetam</description>
+        <protected>true</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SalesNewCustomerEmail</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>isAdult</fullName>
+        <field>ACTIVE__c</field>
+        <literalValue>1</literalValue>
+        <name>isAdult</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>employees Age should be more than or equal to 18</fullName>
+        <actions>
+            <name>isAdult</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>the employee should be adult i.e. Age&gt;=18</description>
+        <formula>AGE__c  &gt;= 18</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>send email</fullName>
+        <actions>
+            <name>send_email_to_preetam</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Employee__c.ACTIVE__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>send email whenever an employee is created.</description>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Employee__c.CreatedDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

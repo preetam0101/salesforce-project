@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nearest_city__c</fullName>
+    <label>nearest city</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>state_OR_UT_name__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>nearest_city</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Sikkim</controllingFieldValue>
+            <valueName>Gangtok</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tamil Nadu</controllingFieldValue>
+            <valueName>Chennai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tamil Nadu</controllingFieldValue>
+            <valueName>Madurai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tamil Nadu</controllingFieldValue>
+            <valueName>Vijayawada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tamil Nadu</controllingFieldValue>
+            <valueName>Visakhapatnam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telangana</controllingFieldValue>
+            <valueName>Hyderabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tripura</controllingFieldValue>
+            <valueName>Agartala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Uttar Pradesh</controllingFieldValue>
+            <valueName>Agra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Uttar Pradesh</controllingFieldValue>
+            <valueName>Cuttack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Uttar Pradesh</controllingFieldValue>
+            <valueName>Ghaziabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Uttar Pradesh</controllingFieldValue>
+            <valueName>Haridwar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Uttar Pradesh</controllingFieldValue>
+            <valueName>Lucknow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Uttar Pradesh</controllingFieldValue>
+            <valueName>Roorkee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Uttar Pradesh</controllingFieldValue>
+            <valueName>Varanasi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Uttarakhand</controllingFieldValue>
+            <valueName>Dehradun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West Bengal</controllingFieldValue>
+            <valueName>Kolkata</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andaman and Nicobar Islands</controllingFieldValue>
+            <valueName>Port Blair</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jharkhand</controllingFieldValue>
+            <valueName>Durgapur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jharkhand</controllingFieldValue>
+            <valueName>Ranchi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Karnataka</controllingFieldValue>
+            <valueName>Bengaluru</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kerala</controllingFieldValue>
+            <valueName>Thiruvananthapuram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ladakh</controllingFieldValue>
+            <valueName>Leh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Pradesh</controllingFieldValue>
+            <valueName>Bhopal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Madhya Pradesh</controllingFieldValue>
+            <valueName>Indore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Mumbai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Puducherry (Pondicherry)</controllingFieldValue>
+            <valueName>Puducherry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manipur</controllingFieldValue>
+            <valueName>Imphal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meghalaya</controllingFieldValue>
+            <valueName>Shillong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mizoram</controllingFieldValue>
+            <valueName>Aizawl</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nagaland</controllingFieldValue>
+            <valueName>Kohima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Odisha</controllingFieldValue>
+            <valueName>Bhubaneswar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assam</controllingFieldValue>
+            <valueName>Silchar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bihar</controllingFieldValue>
+            <valueName>Gaya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Goa</controllingFieldValue>
+            <valueName>Panaji</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gujarat</controllingFieldValue>
+            <valueName>Surat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gujarat</controllingFieldValue>
+            <valueName>Vadodara</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Haryana</controllingFieldValue>
+            <controllingFieldValue>Punjab</controllingFieldValue>
+            <valueName>Chandigarh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Himachal Pradesh</controllingFieldValue>
+            <valueName>Shimla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Jaipur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Jodhpur</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

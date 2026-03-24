@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>book_Name__c</fullName>
+    <label>book Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HINDI</fullName>
+                <default>false</default>
+                <label>HINDI</label>
+            </value>
+            <value>
+                <fullName>ENGLISH</fullName>
+                <default>false</default>
+                <label>ENGLISH</label>
+            </value>
+            <value>
+                <fullName>MATHS</fullName>
+                <default>false</default>
+                <label>MATHS</label>
+            </value>
+            <value>
+                <fullName>SANSKRIT</fullName>
+                <default>false</default>
+                <label>SANSKRIT</label>
+            </value>
+            <value>
+                <fullName>COMPUTER</fullName>
+                <default>false</default>
+                <label>COMPUTER</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>SCIENCE</fullName>
+                <default>false</default>
+                <label>SCIENCE</label>
+            </value>
+            <value>
+                <fullName>ETHICAL HACKING</fullName>
+                <default>false</default>
+                <label>ETHICAL HACKING</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

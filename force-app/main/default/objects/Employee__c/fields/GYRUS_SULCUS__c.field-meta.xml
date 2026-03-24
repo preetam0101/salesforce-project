@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GYRUS_SULCUS__c</fullName>
+    <label>GYRUS SULCUS</label>
+    <length>50</length>
+    <referenceTo>GYRUS_SULCUS__x</referenceTo>
+    <relationshipLabel>Employees</relationshipLabel>
+    <relationshipName>Employees</relationshipName>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>ExternalLookup</type>
+</CustomField>

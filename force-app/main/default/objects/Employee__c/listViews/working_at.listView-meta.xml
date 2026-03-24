@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>working_at</fullName>
+    <columns>NAME</columns>
+    <columns>COMPANY__c</columns>
+    <columns>COUNTRY__c</columns>
+    <columns>ACTIVE__c</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>SALARY__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>COMPANY__c</field>
+        <operation>equals</operation>
+        <value>SENDIT</value>
+    </filters>
+    <label>working at</label>
+</ListView>

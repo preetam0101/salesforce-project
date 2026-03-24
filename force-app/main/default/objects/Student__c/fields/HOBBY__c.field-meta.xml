@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HOBBY__c</fullName>
+    <label>HOBBY</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CRICKET</fullName>
+                <default>false</default>
+                <label>CRICKET</label>
+            </value>
+            <value>
+                <fullName>VOLLEYBALL</fullName>
+                <default>false</default>
+                <label>VOLLEYBALL</label>
+            </value>
+            <value>
+                <fullName>CHESS</fullName>
+                <default>false</default>
+                <label>CHESS</label>
+            </value>
+            <value>
+                <fullName>BOOK READING</fullName>
+                <default>false</default>
+                <label>BOOK READING</label>
+            </value>
+            <value>
+                <fullName>DRAWING</fullName>
+                <default>false</default>
+                <label>DRAWING</label>
+            </value>
+            <value>
+                <fullName>BADMINTON</fullName>
+                <default>false</default>
+                <label>BADMINTON</label>
+            </value>
+            <value>
+                <fullName>WATCHING NEWS</fullName>
+                <default>false</default>
+                <label>WATCHING NEWS</label>
+            </value>
+            <value>
+                <fullName>RESEARCHING TOPICS</fullName>
+                <default>false</default>
+                <label>RESEARCHING TOPICS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

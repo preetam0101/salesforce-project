@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ONLY_DIGITS_ALLOWED</fullName>
+    <active>false</active>
+    <description>ONLY DIGITS ALLOWED</description>
+    <errorConditionFormula>NOT(REGEX( PHONE_NO__c, &quot;^\\d{10}$&quot; ))</errorConditionFormula>
+    <errorDisplayField>PHONE_NO__c</errorDisplayField>
+    <errorMessage>Please enter exactly 10 numeric digits with no spaces or special characters. (Current length is 10).</errorMessage>
+</ValidationRule>

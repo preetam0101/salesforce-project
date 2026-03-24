@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>added_this_week</fullName>
+    <columns>NAME</columns>
+    <columns>COMPANY__c</columns>
+    <columns>SALARY__c</columns>
+    <columns>COUNTRY__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <label>added this week</label>
+</ListView>
